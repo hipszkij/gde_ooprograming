@@ -10,3 +10,7 @@ class Book:
         print(f"Title: {self.title}")
         print(f"Publication Year: {self.publication_year}")
         print(f"ISBN: {self.isbn}")
+
+
+book: Book = Book("Teszt author", "Teszt title", 2024, "123456789")
+book.display_info()

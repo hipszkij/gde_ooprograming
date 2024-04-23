@@ -1,13 +1,13 @@
 import math
 
-def cycleCircumference(r: float):
+def cycleCircumference(r):
     return 2 * r * math.pi
 
-def areaOfCicle(r: float):
+def areaOfCicle(r):
     return math.pow(r,2) * math.pi
 
 
-r: float = 4;
+r = 4;
 
 print(cycleCircumference(r))
 print(areaOfCicle(r))
