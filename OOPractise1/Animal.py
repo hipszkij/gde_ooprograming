@@ -21,15 +21,8 @@ class Dog(Animal):
         self._szin = szin
         print("Dog constructor")
 
-    def tostring(self):
-        print(f"A nevem {self._nev}")
-        print(f"A korom {self._kor}")
-        print(f"A fajtám {self._fajta}")
-        print(f"A szinem {self._szin}")
-
     def my_name(self):
-        print(f"A kutya neve: {self._nev}")
-
+        return 2 + 2
 
 animal = Animal("Kutya", "10", "német juhász")
 print(animal.tostring())

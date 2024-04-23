@@ -1,4 +1,5 @@
 from Teglalap import Teglalap
+from Poligon import Poligon
 
 teglalap = Teglalap(2,3)
 kerulet = teglalap.kerulet()

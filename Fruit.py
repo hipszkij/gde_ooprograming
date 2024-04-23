@@ -8,11 +8,11 @@ fruits.sort()
 print(fruits)
 
 print("------------")
-for fruit in sorted(fruits):
+for fruit in fruits:
     print(fruit)
 
 print("------------")
 
-for fruit in sorted(fruits):
+for fruit in fruits:
     if fruit.startswith("a"):
         print(fruit)
