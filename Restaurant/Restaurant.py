@@ -1,4 +1,6 @@
 class Restaurant:
+    orders = []
+
     def __init__(self, name, menu):
         self.name = name
         self.menu = menu
@@ -8,7 +10,7 @@ class Restaurant:
 
     def getMenuItems(self):
         for food in self.menu:
-            print(f"{food.name} .............. {food.price} huf")
+            print(f"{food.id}. {food.name} .............. {food.price} huf")
 
     def __add__(self, other):
         self.menu.append(other)
