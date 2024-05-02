@@ -17,9 +17,6 @@ class Number:
         else:
             return Number(self.value - other)  # Más típusokkal is működjön, ha szükséges
 
-    def __mul__(self, other):
-        return "osztás"
-
 number1 = Number(1)
 number2 = Number(5)
 
@@ -34,5 +31,5 @@ print(number4)  # Kiírja: Szám értéke: 4
 number5 = number2 - 2
 print(number5)
 
-number6 = number2 * number1
-print(number6)  # Kiírja: Szám értéke: 5
+#number6 = number2 * number1
+#print(number6)  # Kiírja: Szám értéke: 5

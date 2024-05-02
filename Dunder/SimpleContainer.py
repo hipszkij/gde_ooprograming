@@ -8,6 +8,7 @@ class SimpleContainer:
 
     def __getitem__(self, index):
         # Egy adott indexű elem visszaadása
+        print("getitem")
         return self.elements[index]
 
     def __setitem__(self, key, value):
