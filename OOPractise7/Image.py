@@ -1,10 +1,14 @@
 class Image:
-    def __init__(self, id, name, user, size, format):
+    def __init__(self, id, name, size, format, user):
         self.id = id
         self.name = name
-        self.user = user
         self._size = size
         self._format = format
+        self._user = user
+
+    @property
+    def user(self):
+        return self._user
 
     @property
     def size(self):
@@ -21,3 +25,4 @@ class Image:
     @format.setter
     def format(self, newFormat):
         self._format = newFormat
+

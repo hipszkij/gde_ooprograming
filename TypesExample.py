@@ -4,6 +4,7 @@ import math
 a: int = 10
 b: int = 15
 c: float = 20.5
+d: string = "valami"
 
 print(a + b)
 print(a + c)

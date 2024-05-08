@@ -10,10 +10,4 @@ class Book:
     def decreaseBookNumber(self):
         self._numberOfBooks -= 1
 
-    def get_author(self):
-        return self._author
-
-    def set_author(self, newAuthor):
-        self._author = newAuthor
-
-    author = property(get_author, set_author)
+        

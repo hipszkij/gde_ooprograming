@@ -18,7 +18,5 @@ book2.decreaseBookNumber()
 rental3 = BookRental(member2, book1, "2024-04-11", "2024-06-11")
 book1.decreaseBookNumber()
 
-book1.author = "AAAAA"
-member1.email = "hello"
 
 

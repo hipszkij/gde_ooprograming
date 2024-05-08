@@ -1,11 +1,13 @@
 from Animal import Animal
 
 
-class Dog(Animal):
+class Cat(Animal):
     def __init__(self, name, kor, fajta, szin):
-        super().__init__(name, kor, fajta)
         self._szin = szin
-        print("Dog constructor")
+        print("Cat constructor")
+
+    def speak(self):
+        print("Cat is speaking")
 
     def tostring(self):
         print(f"A nevem {self._nev}")
@@ -14,4 +16,4 @@ class Dog(Animal):
         print(f"A szinem {self._szin}")
 
     def my_name(self):
-        print(f"A kutya neve: {self._nev}")
+        print(f"A macska neve: {self._nev}")

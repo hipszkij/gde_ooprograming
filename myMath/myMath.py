@@ -12,3 +12,5 @@ class myMath:
 math = myMath()
 osszeg = math.osszead(1, 2)
 print(osszeg)
+
+math.
