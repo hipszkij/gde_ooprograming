@@ -1,10 +1,11 @@
 class Album:
-    _images = []
+    ##_images = []
 
     def __init__(self, id, name, user):
         self.id = id
         self.name = name
         self.user = user
+        self._images = []
 
     def add_image(self, newImage):
         if newImage.user == self.user:
