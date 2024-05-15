@@ -1,0 +1,4 @@
+A Singleton design pattern egy olyan tervezési minta, amely biztosítja, hogy egy osztályból csak egy példány létezhessen, és egy globális hozzáférési pontot biztosít ehhez a példányhoz. Pythonban ezt gyakran egy osztály magának a kezelésével valósítják meg, anélkül, hogy metaclass-t használnánk. Az alábbiakban egy egyszerű példát mutatok be, amely az autókra vonatkozó járműves Singleton mintát alkalmazza.
+
+Egyszerű Singleton Osztály Autókhoz
+Az alábbi kódban egy CarRegistry osztályt hozunk létre, amely a Singleton minta szerint van megvalósítva. Ez az osztály egy globális nyilvántartást tart fenn az összes regisztrált autóról, és biztosítja, hogy az osztályból csak egy példány létezzen.
